@@ -8,12 +8,13 @@ A Jenkins + Nginx reverse proxy Docker container
 
 `docker-compose up -d`
 
-Nginx binds to port 80
-Username: Admin
-Password: auto generated
+Nginx binds to port 80<br>
+Username: Admin<br>
+Password: auto generated<br>
 `http://ip-or-dns/`
-
+<br>
 Retrieve Jenkins Admin user password
 `docker exec jenkins_master_1 cat /var/jenkins_home/secrets/initialAdminPassword`
 
+<br>Tested with Docker version 18.09.9, build 1752eb3. docker-compose version 1.23.2
 
