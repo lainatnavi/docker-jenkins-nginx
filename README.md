@@ -1,12 +1,10 @@
 # docker-jenkins-nginx
 A Jenkins + Nginx reverse proxy Docker container
 
-# How to run this container
-`$ git clone https://github.com/lainatnavi/docker-jenkins-nginx
-
-$ cd docker-jenkins-nginx
-
-$ docker-compose up -d`
+# How to run the containers
+`$ git clone https://github.com/lainatnavi/docker-jenkins-nginx`
+`$ cd docker-jenkins-nginx`
+`$ docker-compose up -d`
 
 Nginx binds to port 80<br>
 Username: Admin<br>
